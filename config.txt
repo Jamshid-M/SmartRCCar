@@ -1,0 +1,32 @@
+max 65
+min 0
+spin 50
+negative_spin 5
+ir_speed 50
+negative_ir_speed -15
+distance 15
+static_distance 30
+smooth_extra_hard 3
+smooth_hard 6
+smooth_medium 8
+smooth 15
+smooth_light 55
+hue_min 20
+sat_min 60
+bri_min 60
+hue_max 45
+sat_max 255
+bri_max 255
+canny_value 20
+
+back_delay 500
+static_left 8
+static_right 60
+
+turn_delay 450
+static_left2 7
+static_right2 7
+
+delay3 1600
+
+g++ main.cpp LaneDetector.cpp Ultrasonic.cpp -o main -lwiringPi -pthread -I/usr/local/include -L/usr/local/lib -L/opt/vc/lib -lraspicam -lraspicam_cv -lmmal -lmmal_core -lmmal_util `pkg-config --cflags --libs opencv`
