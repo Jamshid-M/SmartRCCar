@@ -3,6 +3,7 @@
 Create executable file with command  <br />
 **g++ main.cpp LaneDetector.cpp Ultrasonic.cpp -o main -lwiringPi -pthread -I/usr/local/include -L/usr/local/lib -L/opt/vc/lib -lraspicam -lraspicam_cv -lmmal -lmmal_core -lmmal_util `pkg-config --cflags --libs opencv`**
 
+![](https://drive.google.com/uc?export=view&id=1ZBU3ZykYDZgPd88-yEJz9ojcN139LQX-)
 
 ## **Step 1**
 Taking frame as input from RaspiCam
