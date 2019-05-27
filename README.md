@@ -42,7 +42,9 @@ With the help of right and left lines we will predict turn in predictTurn functi
 In this project I've made also traffic light recognition with color filtering and traffic sign recognition with Cascade classifier (xml)
 
 
-## **MIT License**
+## **License** 
+
+**MIT License**
 
 Copyright (c) 2019 Jamshid M
 
